@@ -5,7 +5,7 @@ export const RECEIVE_TWEETS = "RECEIVE_TWEETS";
 export const TOGGLE_TWEET = "TOGGLE_TWEET";
 export const ADD_TWEET = "ADD_TWEET";
 
-function addTweet() {
+function addTweet(tweet) {
   return {
     type: ADD_TWEET,
     tweet
